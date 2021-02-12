@@ -8,7 +8,8 @@ class StocksTest {
 
     @Test
     void addNewProduct() throws ProductAlreadyRegisteredException{
-
+        Product stock = mock(Stocks.class);
+        Stocks stocks = new Stocks();
     }
 
     @Test
